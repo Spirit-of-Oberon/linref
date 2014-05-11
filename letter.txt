@@ -1,0 +1,32 @@
+From: Cuno Pfister [pfister@oberon.ch]
+To: Tkachov, Fyodor [ftkachov@ms2.inr.ac.ru]
+Cc: Frei, Marc [frei@oberon.ch]
+Subject: BlackBox: Linux code
+Time: 2014-03-06 at 14:13
+Message
+<saved>
+
+Hi Fyodor
+
+Regarding your question about the Linux version of BlackBox:
+
+Please find attached our complete Linux code. The package consists of two parts:
+
+(0.) DevElfLinker.zip: a version of DevLinker that is able to link Linux shared libraries. You can use it on Windows and run the resulting libraries on Linux. It is work we originally did for Andrew Thomas, but we own the copyright.
+
+(1.) linref.zip: our Linux prototype. We do not consider this production quality code and it certainly needs a lot of additional work. Furthermore the software is not in sync with BlackBox release 1.6-rc6.
+
+You may distribute both packages under the terms of the simplified BlackBox Open Source License (http://choosealicense.com/licenses/bsd/) also attached to this message.
+
+I hope that this solves the problem :-)
+
+Best regards
+Cuno
+
+------------------------------------------------------------------------------
+Dr. Cuno Pfister | Oberon microsystems AG | managing director
+Tel +41 44 445 17 51 | www.oberon.ch | www.gsiot.info
+www.mountaineer.org/mountaineer-group/ | www.yaler.net
+------------------------------------------------------------------------------
+
+Attachments: BlackBox Linux V20050512.zip, BB-License.odc, BB-License.rtf

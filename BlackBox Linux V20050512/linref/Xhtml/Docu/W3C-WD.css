@@ -1,0 +1,64 @@
+  body { 
+    background: top left no-repeat url(WD.gif) #FFFFFF;
+    margin-left: 10%; 
+    margin-right: 10%; 
+    font-family: sans-serif
+  }
+  h1,h2,h3,h4,h5,h6 {
+    margin-left: -4%;
+    font-family: sans-serif;
+    color: rgb(0, 92, 160);
+  }
+  h1 { margin-top: 3em }
+  /* a { text-decoration: none;} */
+  :link { color: rgb(0, 0, 153) }
+  :visited { color: rgb(153, 0, 153) }
+  :active { color: rgb(255, 0, 102) }
+  :hover { color: rgb(0, 96, 255) }
+  /* .contents a { text-decoration: none }  */
+  .spec a { text-decoration: none }
+  img { color: white; border: none; }
+  code { font-family: monospace; font-weight: bold; }
+  em { font-style: italic; font-weight: bold; }
+  strong { text-transform: uppercase; font-weight: bold; }
+  u,ins,.add {text-decoration: underline; color: rgb(153, 0, 0); }
+  s,del,.remove {text-decoration: line-through; color: rgb(192, 192, 0);}
+  pre {font-family: monospace; color: #006600; font-weight: bold; }
+  p.caption { font-weight: bold; font-style: italic; }
+  blockquote {
+    color: navy;
+    font-family: "Comic Sans MS", sans-serif;
+  }
+  div.contents li {list-style-type: none}
+  .contents {
+    background-color: rgb(204,204,255);
+    padding: 0.5em;
+    border: none;
+    width: 100%;
+    margin-right: 5%;
+  }
+  .good {
+    border: solid;
+    border-width: 2px;
+    border-color: green;
+    color: #006600;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding: 0.3em;
+  }
+  .bad  {
+    border: solid;
+    border-width: 2px;
+    border-color: red;
+    margin-right: 5%;
+    color: rgb(192, 101, 101);
+    margin-bottom: 10px;
+    padding: 0.3em;
+  }
+  td,th {
+    font-family: sans-serif;
+    background: rgb(255,255,153);
+    border-color: rgb(255,255,255);
+  }
+
